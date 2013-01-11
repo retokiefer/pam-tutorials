@@ -3,14 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.sonatype.mavenbook.simple</groupId>
+    <groupId>edu.mediacampus.pam.melken</groupId>
     <artifactId>simple</artifactId>
-    <packaging>jar</packaging>
 
     <version>1.0</version>
     <name>UnitTest</name>
 
     <url>http://maven.apache.org</url>
+
+    <build>
+        <sourceDirectory>src/edu/mediacampus/pam/melken</sourceDirectory>
+        <testSourceDirectory>tests/edu/mediacampus/pam/melken</testSourceDirectory>
+    </build>
+
 
     <dependencies>
         <dependency>
